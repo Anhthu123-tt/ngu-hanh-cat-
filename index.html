@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ngũ Hành Cát Khí</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d2f26;
+      color: #fdf5c9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0d2f26;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 2px solid #c9a34d;
+    }
+    h1 {
+      font-size: 36px;
+      color: #c9a34d;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: #1b3e33;
+    }
+    nav a {
+      color: #fdf5c9;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #c9a34d;
+    }
+    form input, form textarea, form button {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+    form button {
+      background-color: #c9a34d;
+      color: #0d2f26;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .product {
+      background: #1b3e33;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .social-links {
+      text-align: center;
+      padding: 30px;
+      background: #1b3e33;
+    }
+    .social-links a {
+      color: #c9a34d;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+    .zalo-chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #0084ff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .zalo-chat:hover {
+      background-color: #005bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ngũ Hành Cát Khí</h1>
+    <p>Phong thủy ứng dụng - Tư vấn tứ trụ - Sản phẩm chữa lành</p>
+  </header>
+
+  <nav>
+    <a href="#tutru">Tứ Trụ</a>
+    <a href="#phongthuy">Phong Thủy</a>
+    <a href="#sanpham">Sản phẩm</a>
+  </nav>
+
+  <section id="tutru">
+    <h2>Phân Tích Tứ Trụ</h2>
+    <p>Nhập thông tin để được phân tích Tứ Trụ cá nhân hoặc cho người thân:</p>
+    <form action="https://formsubmit.co/youremail@example.com" method="POST">
+      <input type="text" name="Họ tên" placeholder="Họ và tên" required>
+      <input type="text" name="Ngày sinh" placeholder="Ngày - Giờ sinh (dd/mm/yyyy HH:MM)" required>
+      <input type="tel" name="Số điện thoại" placeholder="Số điện thoại liên hệ" required>
+      <textarea name="Yêu cầu cụ thể" placeholder="Bạn muốn phân tích vấn đề gì?" rows="4"></textarea>
+      <button type="submit">Gửi đăng ký</button>
+    </form>
+    <p>Hoặc <a href="https://zalo.me/0343955866" target="_blank">tư vấn ngay qua Zalo</a></p>
+  </section>
+
+  <section id="phongthuy">
+    <h2>Phong Thủy Dương & Âm Trạch</h2>
+    <p>Chia sẻ kiến thức phong thủy nhà ở, đất, chung cư và mộ phần.</p>
+    <form action="https://formsubmit.co/youremail@example.com" method="POST">
+      <input type="text" name="Họ tên" placeholder="Họ và tên" required>
+      <input type="text" name="Loại tư vấn" placeholder="Phong thủy dương trạch hoặc âm trạch">
+      <input type="text" name="Địa chỉ" placeholder="Địa chỉ bạn muốn xem/tư vấn">
+      <textarea name="Chi tiết" placeholder="Nội dung yêu cầu tư vấn" rows="4"></textarea>
+      <button type="submit">Gửi đăng ký</button>
+    </form>
+  </section>
+
+  <section id="sanpham">
+    <h2>Vật Phẩm Phong Thủy</h2>
+    <div class="product">
+      <h3>Vòng tay Mộc Tinh</h3>
+      <p>Hỗ trợ mệnh Mộc, thu hút tài lộc, cân bằng nội tâm.</p>
+    </div>
+    <div class="product">
+      <h3>Thạch Anh Tím</h3>
+      <p>Giúc an thần, hóa giải xung khắc, kết nối linh hồn.</p>
+    </div>
+    <h3>Chuyển khoản thanh toán:</h3>
+    <p>Ngân hàng: Vietcombank<br>Số tài khoản: 123456789<br>Chủ TK: NGU HANH CAT KHI</p>
+    <p>Sau khi chuyển khoản, vui lòng nhắn Zalo: <a href="https://zalo.me/0343955866">0343955866</a> để xác nhận đơn hàng.</p>
+  </section>
+
+  <div class="social-links">
+    <h3>Kết nối với Ngũ Hành Cát Khí</h3>
+    <a href="https://facebook.com/thuthu.lh7" target="_blank">Facebook</a>
+    <a href="https://zalo.me/0343955866" target="_blank">Zalo</a>
+    <a href="https://www.tiktok.com/@wyatt.556" target="_blank">TikTok</a>
+  </div>
+
+  <footer>
+    © 2025 Ngũ Hành Cát Khí. All rights reserved.
+  </footer>
+
+  <a href="https://zalo.me/0343955866" class="zalo-chat" target="_blank" title="Tư vấn ngay qua Zalo">💬 Zalo Tư Vấn</a>
+</body>
+</html>
